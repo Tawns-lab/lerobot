@@ -289,6 +289,14 @@ You can reproduce their training by loading the config from their run. Simply ru
 python lerobot/scripts/train.py --config_path=lerobot/diffusion_pusht
 ```
 reproduces SOTA results for Diffusion Policy on the PushT task.
+### Hot microphone example
+
+A minimal voice interface is provided in [hotmic_speaklite.py](examples/hotmic_speaklite.py). It listens from the microphone, transcribes speech with Whisper and replies using the system text-to-speech.
+
+```bash
+python examples/hotmic_speaklite.py --play-sounds
+```
+
 
 ## Contribute
 
