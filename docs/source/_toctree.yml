@@ -35,6 +35,8 @@
 - sections:
   - local: notebooks
     title: Notebooks
+  - local: codex_advanced
+    title: Codex advanced usage
   title: "Resources"
 - sections:
   - local: contributing
